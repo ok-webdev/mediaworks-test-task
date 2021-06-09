@@ -11,7 +11,7 @@ body {
   font-family: 'Whitney', sans-serif;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -23,3 +23,5 @@ body {
 @import './blocks/_register';
 @import './blocks/_modal';
 @import './blocks/backdrop';
+
+@import './utils/media';

@@ -40,6 +40,7 @@
           </div>
           <!-- /.hero__usp -->
           <img
+            class="hero__image"
             src="assets/images/hero-image.png"
             alt="Продавец и автомобиль на фоне"
           />
@@ -110,7 +111,11 @@
                   отправки документов.
                 </p>
               </div>
-              <img src="assets/images/chat-image.svg" alt="Человек в окружении сообщений" class="advantages__image" />
+              <img
+                src="assets/images/chat-image.svg"
+                alt="Человек в окружении сообщений"
+                class="advantages__image"
+              />
             </div>
             <!-- /.advantages__card -->
           </div>
@@ -124,8 +129,10 @@
     <section class="register">
       <div class="container">
         <div class="register__content">
-          <h2 class="title title_h2 title_light">
-            Регистрируйся и получай <br> актуальные запросы на автомобили <br> от заинтересованных клиентов
+          <h2 class="title title_h2 title_h2_smaller title_light">
+            Регистрируйся и получай <br />
+            актуальные запросы на автомобили <br />
+            от заинтересованных клиентов
           </h2>
           <button class="btn btn_margin">Регистрация</button>
         </div>
@@ -134,5 +141,36 @@
       <!-- /.container -->
     </section>
     <!-- /.register -->
+    <div class="backdrop"></div>
+    <!-- /.backdrop -->
+    <div class="modal">
+      <h2 class="title title_h2 title_center">Авторизация</h2>
+      <form class="modal__form">
+        <label for="email" class="modal__form-label">E-mail</label>
+        <input
+          type="email"
+          class="modal__form-input"
+          id="email"
+          name="email"
+          placeholder="Веедите e-mail"
+          required
+        />
+        <label for="password" class="modal__form-label">Введите пароль</label>
+        <input
+          type="text"
+          class="modal__form-input"
+          id="password"
+          name="password"
+          placeholder="Введите пароль"
+          required
+        />
+        <button class="btn btn_margin">Войти</button>
+      </form>
+      <button class="modal__close">
+        <img src="assets/icons/icon-close.svg" alt="close">
+      </button>
+    </div>
+    <!-- /.modal -->
+    <script src="js/script.js"></script>
   </body>
 </html>

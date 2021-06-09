@@ -8,7 +8,11 @@
   color: #FFFFFF;
   outline: transparent;
   cursor: pointer;
+  transition: background .3s;
   &_margin{
     margin-top: 40px;
+  }
+  &:hover{
+    background: #e9480e;
   }
 }

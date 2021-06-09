@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  &__nav{
+    display: flex;
+    align-items: center;
+  }
+  &__link{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    font-weight: 325;
+    text-decoration: none;
+    margin-left: 100px;
+    & span {
+      margin-left: 12px;
+    }
+  }
+}

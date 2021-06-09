@@ -1,1 +1,21 @@
 @import './utils/fonts';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Whitney', sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@import './blocks/title';
+@import './blocks/btn';
+@import './blocks/hero';
+@import './blocks/header';

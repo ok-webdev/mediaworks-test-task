@@ -1,42 +1,125 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css">
-  <title>MediaWorks - Test task</title>
-</head>
-<body>
-  <div class="hero">
-    <div class="container">
-      <header class="header">
-        <a href="#" class="logo">
-          <img src="assets/icons/logo.svg" alt="Логотип">
-        </a>
-        <nav class="header__nav">
-          <a href="#" class="header__link">Клиентам</a>
-          <a href="#" class="header__link" id="account">
-            <img src="assets/icons/icon-account.svg" alt="Иконка пользователя">
-            <span>Войти</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>MediaWorks - Test task</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="assets/icons/logo.svg" alt="Логотип" />
           </a>
-        </nav>
-        <!-- /.header__nav -->
-      </header>
-      <!-- /.header -->
-      <div class="hero__content">
-        <div class="hero__usp">
-          <h1 class="title title_h1">Подбор авто в лизинг по выгодной цене</h1>
-          <p class="hero__motto">IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
-          <button class="btn">Регистрация</button>
+          <nav class="header__nav">
+            <a href="#" class="header__link">Клиентам</a>
+            <a href="#" class="header__link" id="account">
+              <img
+                src="assets/icons/icon-account.svg"
+                alt="Иконка пользователя"
+              />
+              <span>Войти</span>
+            </a>
+          </nav>
+          <!-- /.header__nav -->
+        </header>
+        <!-- /.header -->
+        <div class="hero__content">
+          <div class="hero__usp">
+            <h1 class="title title_h1">
+              Подбор авто в лизинг по выгодной цене
+            </h1>
+            <p class="hero__motto">
+              IT платформа по быстрому поиску автомобиля от официальных дилеров
+              РФ
+            </p>
+            <button class="btn">Регистрация</button>
+          </div>
+          <!-- /.hero__usp -->
+          <img
+            src="assets/images/hero-image.png"
+            alt="Продавец и автомобиль на фоне"
+          />
         </div>
-        <!-- /.hero__usp -->
-        <img src="assets/images/hero-image.png" alt="Продавец и автомобиль на фоне">
+        <!-- /.hero__content -->
       </div>
-      <!-- /.hero__content -->
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.hero -->
-</body>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__content">
+          <h2 class="title title_h2 title_dark">
+            Меньше условий – больше возможностей
+          </h2>
+          <div class="advantages__cards">
+            <div class="advantages__card">
+              <div class="advantages__text">
+                <h3 class="title title_h3 title_dark">Экономия времени</h3>
+                <p class="advantages__description">
+                  Дополнительный канал потенциальных клиентов, готовых
+                  приобрести автомобиль, без затрат на рекламу и маркетинг.
+                </p>
+              </div>
+              <img
+                src="assets/images/time-image.svg"
+                alt="Человек с ноутбуком, песочные часы на фоне"
+                class="advantages__image"
+              />
+            </div>
+            <!-- /.advantages__card -->
+            <div class="advantages__card">
+              <div class="advantages__text">
+                <h3 class="title title_h3 title_dark">Никаких задержек</h3>
+                <p class="advantages__description">
+                  Вы получаете запросы сразу же после отправки клиентом.
+                </p>
+              </div>
+              <img
+                src="assets/images/speed-image.svg"
+                alt="Человек и летающий конверт"
+                class="advantages__image"
+              />
+            </div>
+            <!-- /.advantages__card -->
+            <div class="advantages__card">
+              <div class="advantages__text">
+                <h3 class="title title_h3 title_dark">
+                  Максимальная информативность
+                </h3>
+                <p class="advantages__description">
+                  В каждой заявке указан регион поиска, марка и модель авто, а
+                  так же индивидуальные запросы клиента.
+                </p>
+              </div>
+              <img
+                src="assets/images/Information-image.svg"
+                alt="Человек у информационной панели"
+                class="advantages__image"
+              />
+            </div>
+            <!-- /.advantages__card -->
+            <div class="advantages__card">
+              <div class="advantages__text">
+                <h3 class="title title_h3 title_dark">Удобство общения</h3>
+                <p class="advantages__description">
+                  Для каждого запроса у вас открыт чат с клиентом с возможностью
+                  отправки документов.
+                </p>
+              </div>
+              <img src="assets/images/chat-image.svg" alt="Человек в окружении сообщений" class="advantages__image" />
+            </div>
+            <!-- /.advantages__card -->
+          </div>
+          <!-- /.advantages__cards -->
+        </div>
+        <!-- /.advantages__content -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.advantages -->
+  </body>
 </html>
